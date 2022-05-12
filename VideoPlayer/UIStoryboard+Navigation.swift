@@ -10,7 +10,7 @@ import UIKit
 
 extension UIStoryboard {
     static let player = UIStoryboard(name : "Player", bundle: .main)
-    
+    static let fullScreen = UIStoryboard(name : "FullScreen", bundle: .main)
     func instanceOf<T: UIViewController>(viewController: T.Type) ->T? {
         let x = String(describing: viewController.self)
         let vc = self.instantiateViewController(withIdentifier: x) as? T

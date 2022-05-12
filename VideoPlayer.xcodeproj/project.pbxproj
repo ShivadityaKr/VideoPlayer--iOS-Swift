@@ -19,6 +19,8 @@
 		7A58AA2E2829423C008878CB /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58AA2C2829423C008878CB /* CustomTVC.swift */; };
 		7A58AA2F2829423C008878CB /* CustomTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A58AA2D2829423C008878CB /* CustomTVC.xib */; };
 		7A58AA31282953F3008878CB /* FullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A58AA30282953F3008878CB /* FullScreenVC.swift */; };
+		7AA91021282BAA6F004F2A75 /* FullScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA91020282BAA6F004F2A75 /* FullScreen.storyboard */; };
+		7AA91023282BBE6E004F2A75 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA91022282BBE6E004F2A75 /* AppUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		7A58AA2C2829423C008878CB /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
 		7A58AA2D2829423C008878CB /* CustomTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTVC.xib; sourceTree = "<group>"; };
 		7A58AA30282953F3008878CB /* FullScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenVC.swift; sourceTree = "<group>"; };
+		7AA91020282BAA6F004F2A75 /* FullScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FullScreen.storyboard; sourceTree = "<group>"; };
+		7AA91022282BBE6E004F2A75 /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +90,11 @@
 		7A58AA2028293240008878CB /* PlayerView */ = {
 			isa = PBXGroup;
 			children = (
+				7AA91022282BBE6E004F2A75 /* AppUtility.swift */,
 				7A58AA212829324D008878CB /* PlayerVC.swift */,
 				7A58AA2328293254008878CB /* Player.storyboard */,
 				7A58AA30282953F3008878CB /* FullScreenVC.swift */,
+				7AA91020282BAA6F004F2A75 /* FullScreen.storyboard */,
 			);
 			path = PlayerView;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 				7A58AA2428293254008878CB /* Player.storyboard in Resources */,
 				7A58AA1628293122008878CB /* Assets.xcassets in Resources */,
 				7A58AA1428293120008878CB /* Main.storyboard in Resources */,
+				7AA91021282BAA6F004F2A75 /* FullScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA91023282BBE6E004F2A75 /* AppUtility.swift in Sources */,
 				7A58AA31282953F3008878CB /* FullScreenVC.swift in Sources */,
 				7A58AA2928293E8C008878CB /* RawData.swift in Sources */,
 				7A58AA222829324D008878CB /* PlayerVC.swift in Sources */,
